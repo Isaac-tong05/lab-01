@@ -1,0 +1,8 @@
+package com.example.petshop
+
+class Happy(date:String):Mood(date) {
+    override fun mood():String{
+        return "At $date it is happy"
+    }
+
+}
